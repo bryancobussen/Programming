@@ -10,3 +10,5 @@ kaartnummers = kaartnummers.splitlines()
 for nummer in kaartnummers:
     nummerNaam = nummer.split(',')
     print(nummerNaam[1] + ' heeft kaartnummer: ' + nummerNaam[0])
+
+print(einde)
